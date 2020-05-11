@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+<!--        <script>document.getElementById("subtotal2").innerHTML=parseFloat(sessionStorage.subtotal_t);</script>-->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <link href="CSS/index.css" rel="stylesheet" type="text/css">
+        <script src="javascript/finalpay_obj.js"></script>
+        <link href="CSS/finalpay.css" rel="stylesheet" type="text/css">
+<!--        <script src="javascript/home.js"></script>-->
+<script src="javascript/finalpay.js"></script>
+        
+        
+    </head>
+    <body>
+        <header>
+            <a class="active" href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </header>
+        <div class="www">
+        <div class="div_align">
+        <div id="finalpay_div">
+        <div class="order">
+                
+            <h1>You Choosed...</h1>
+            <div >
+            <label id="tbl"></label>
+            
+            </div>
+                <table>
+                    <tr style="font-size:30px; font-weight: 800; ">
+                        <td style="text-decoration: underline">TOTAL: </td>
+                        <td style="text-align: left; text-decoration: underline;">
+                        <label id="subtotal2"  style="font-size: 30px;"></label></td>
+                    </tr>
+                </table>
+        </div>
+            <table>
+                <tr>
+                <td>
+                    <label for="Tip">Tip: </label>
+                </td>
+                <td>
+                    <select id="tip_type" class="txt1">
+                        <option value="nothing">Please select tip type</option>
+                        <option value="percentage">Percentage</option>
+                        <option value="amount">amount</option>
+                    </select><br>            
+                </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <label for="enter_tip">Enter Tip: </label>
+                    </td>
+                <td >
+                    <input type="text" id="tip_cents" class="txt"><br>            
+                </td>
+                    </tr>
+                <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="button" value="show" id="show" class="button"><br>
+                </td>
+                    </tr>
+            </table>
+        </div>
+        <div class="behind_the_scene">
+            
+            <div id="final_receipt">
+                <h1>Please confirm your order</h1>
+                
+                <h3 style="text-decoration: underline; padding-bottom: 20px;">Address..</h3>
+            Name: <label id="tbl3"></label><br>
+                Address:<label id="tbl4"></label><br>
+                Mobile No.:<label id="tbl5"></label><br>
+                <h3 style="text-decoration: underline; padding-bottom: 20px;">Order..</h3>
+            <label id="tbl2"></label><br>
+            <input type="button" value="confirm order" class="button btn1" onclick="last()">
+                </div>
+        </div>
+        </div>
+        </div>
+        <footer style="width: 100%; text-align: center">
+            <p class="a">Copyright &copy; developed by Yash patel</p>
+        </footer>
+    </body>
+</html>

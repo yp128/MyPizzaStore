@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link href="CSS/index.css" rel="stylesheet" type="text/css">
+    <title>Page Title</title>
+    <link href="CSS/order.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="javascript/order.js"></script>
+</head>
+<body>
+    <header>
+            <a class="active" href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </header>
+    <div class="www">
+    <div id="home_main">
+   <form id="order_form">
+        <fieldset>
+            <legend>pizza size </legend>
+            <input type="radio" value="small" name="size" class="box">small<br>
+            <input type="radio" value="medium" name="size" class="box">medium<br>
+            <input type="radio" value="large" name="size" class="box">large<br>
+            <input type="radio" value="X-large" name="size" class="box">X-large
+        </fieldset>
+        <fieldset>
+                <legend>Crust type </legend>
+                <input type="radio" value="regular" name="crust" class="box">regular<br>
+                <input type="radio" value="stuff crust" name="crust" class="box">stuff crust<br>
+                <input type="radio" value="thin crust" name="crust" class="box">thin crust<br>
+                <input type="radio" value="thick" name="crust" class="box">thick
+        </fieldset>
+        <fieldset>
+                <legend>Toppings</legend>
+                <input type="checkbox" value="onion" name="topings" class="box">onion<br>
+                <input type="checkbox" value="greenpepper" name="topings" class="box">greenpepper<br>
+                <input type="checkbox" value="pineapple" name="topings" class="box">Pineapple<br>
+                <input type="checkbox" value="mashroom" name="topings" class="box">mashroom<br>
+                <input type="checkbox" value="tomato" name="topings" class="box">tomato<br>
+                <input type="checkbox" value="Greenolives" name="topings" class="box">Greenolives<br>
+                <input type="checkbox" value="blckolives" name="topings" class="box">blckolives<br>
+                <input type="checkbox" value="chicken" name="topings" class="box">chicken<br>
+                <input type="checkbox" value="bacon" name="topings" class="box">bacon<br>
+                <input type="checkbox" value="ham" name="topings" class="box">ham
+        </fieldset>
+		<fieldset style="border: none; text-align: center">
+			<input type="button" value="Add" id="sub">
+     		
+		</fieldset>
+    </form>
+        <div class="order">
+            <p>YOU CHOOSE...</p>
+            <div id="tbl">
+            </div>
+            <input type="button" value="submit" id="sub1">
+        </div>
+    </div>
+        </div>
+    <footer style="width: 100%; text-align: center">
+            <p class="a">Copyright &copy; developed by Yash patel</p>
+        </footer>
+    
+</body>
+</html>

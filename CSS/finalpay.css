@@ -1,0 +1,81 @@
+body{
+    background-image: url(../Images/single-image-pepperoni-pizza-background-footage-096385699_prevstill.jpeg);
+    background-size: cover;
+}
+#finalpay_div{
+    width:90%;
+    background-color: white;
+    text-align: center;
+}
+table{
+	width: 90%;
+	margin: auto;
+	margin-top: 10%;
+	text-align: center;
+	background-color: transparent;
+	
+	
+	
+}
+#final_receipt{
+    width:90%;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    text-decoration: underline;
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:  20px;
+}
+.order{
+    padding-top: 30px;
+}
+td{
+	height: 80px;
+	font-size: 30px;
+}
+
+.txt,.txt1{
+	border-width: 2px;
+	border-color: grey;
+	height: 30px;
+	width: 70%;
+	border-radius: 6px;
+	color: black;
+	font-weight: 700;
+	font-size: 16px;
+	
+	background-color: white;
+}
+.txt1{
+	border-width: 2px;
+	border-color: grey;
+	height: 60px;
+	border-radius: 6PX;
+	color: black;
+	font-weight: 700;
+}
+
+.button{
+	border-width: 2px;
+	border-color: grey;
+	font-size: 28px;
+	padding: 5px;
+	height: 45px;
+	width: 40%;
+	font-weight: 600;
+	border-radius: 6px;
+}
+.div_align{
+    position: absolute;
+    top: 15%;
+    left: 24.5%;
+    width: 45%;
+}
+.btn1{
+    margin-top: 20px;
+}

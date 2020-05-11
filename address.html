@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>contact</title>
+        <script src="javascript/address.js"></script>
+        <link href="CSS/index.css" rel="stylesheet" type="text/css">
+		<link href="CSS/contact.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <a class="active" href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </header>
+          
+        <main>
+            <div class="www">
+            <div id="main_div">
+				<table>
+					<tr>
+						<td>
+							<label for="name" class="lbl">Name:</label>
+							<br><span></span>
+						</td>
+						<td>
+							<input type="text" id="name_txt" class="txt"><br>
+							<span id="name_val"></span><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="mobile" class="lbl" >Mobile No.:</label> 
+							<br><span></span>
+						</td>
+						<td>
+							<input type="text" id="mobile_txt" placeholder="xxx-xxx-xxxx" class="txt"><br>
+							<span id="mobile_val"></span><br>
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<label for="comment" class="lbl">Comment:</label>
+							<br><span></span>
+						</td>
+						<td>
+							<textarea id="comment_txt" rows="4" cols="40" placeholder="Enter your message here and we will get back to you with in 2 business days" class="txt1"></textarea><br>
+							<span id="comment_val"></span><br>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="btn">
+							<input type="button" id="submit" value="Submit" onclick="validation()" class="button">
+						</td>
+					</tr>
+				</table>
+            </div>
+            </div>
+        </main>
+        <footer style="width: 100%; text-align: center">
+            <p class="a">Copyright &copy; developed by Yash patel</p>
+        </footer>
+
+    </body>
+
+</html>

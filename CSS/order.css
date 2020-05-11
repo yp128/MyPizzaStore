@@ -1,0 +1,69 @@
+body{
+	background-image: url(../Images/pizza.jpg);
+	background-size: cover;
+}
+
+form{
+	width: 48%;
+	background-color: white;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+fieldset{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: grey;
+	border-width: 3px;
+	border-radius: 3px;
+	font-size: 20px;
+	margin-top:  20px;
+	padding-bottom: 20px;
+}
+.box{
+	height: 18px;
+	width: 18px;
+}
+#sub,#sub1{
+	border-width: 2px;
+	border-color: grey;
+	font-size: 18px;
+	padding: 5px;
+	height: 38px;
+	width: 40%;
+	font-weight: 600;
+	border-radius: 6px;
+	align-self: center;
+}
+legend{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+#home_main{
+    width: 65%;
+    height: auto;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
+.order{
+    float: right;
+    height: 500px; 
+    width: 48%; 
+    background-color: white;
+    text-align: center;
+    
+}
+table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
